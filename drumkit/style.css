@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p{
+    color:aliceblue;
+    font-family:"Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-top: 10%;ee
+    
+}
+
+
+body{
+    transition: 0.25s;
+    display: flex;
+    background-image: linear-gradient( darkslateblue, indigo) ;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+
+
+button {
+    background-color: goldenrod;
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+/* h2{
+
+    font-size: 20px;
+    font-weight: 200;
+} */
+
+button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	/* background-color: gold; */
+	font-size: 15px;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+	text-transform: uppercase;
+	/* border-style: solid; */
+	border-color: #202338;
+	border-width: 5px;
+	/* border-radius: 20%; */
+	padding: 40px 0 30px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+    
+}
+
+
+
+.openhat{
+
+    
+    height: 160px;
+    width: 160px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+
+
+.hihat{
+
+    height: 160px;
+    width: 160px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    padding: 0 20px;
+
+}
+
+.tom{
+
+    height: 160px;
+    width: 160px;
+    background-color: rgb(41, 41, 216);
+    border-radius: 50%;
+}
+
+.snare{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+
+.crash{
+
+    height: 160px;
+    width: 160px;
+    background-color: silver;
+    border-radius: 50%;
+}
+
+.floortom{
+
+    height: 160px;
+    width: 160px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 50%;
+}
+
+.ride{
+
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-bottom: 50%;
+}
+
+.tink{
+
+    height: 160px;
+    width: 160px;
+    background-color: rgb(223, 72, 17);
+    border-radius: 50%;
+}
+
+.bass{
+
+    height: 200px;
+    width: 200px;
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+.instructions{
+
+    font-size: 16px;
+    margin-bottom: 50%;
+}
